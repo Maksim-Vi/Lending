@@ -1,0 +1,82 @@
+self.__precacheManifest = (self.__precacheManifest || []).concat([
+  {
+    "revision": "9e06ddc35efa50ef79f89446ab62ae10",
+    "url": "/Lending/index.html"
+  },
+  {
+    "revision": "03278f59699d0c03bc48",
+    "url": "/Lending/static/css/2.af3c1da9.chunk.css"
+  },
+  {
+    "revision": "8f2e216612d8c1656b49",
+    "url": "/Lending/static/css/main.d0ecece9.chunk.css"
+  },
+  {
+    "revision": "03278f59699d0c03bc48",
+    "url": "/Lending/static/js/2.b36d16ec.chunk.js"
+  },
+  {
+    "revision": "5e9b6f5c16b720e8a86875f97734673e",
+    "url": "/Lending/static/js/2.b36d16ec.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "8f2e216612d8c1656b49",
+    "url": "/Lending/static/js/main.f6a43081.chunk.js"
+  },
+  {
+    "revision": "4c9729722fc3db7e523f",
+    "url": "/Lending/static/js/runtime-main.5d49c43f.js"
+  },
+  {
+    "revision": "7d642fd02cc22e8a0189e94e52cbd4d1",
+    "url": "/Lending/static/media/Group.7d642fd0.jpg"
+  },
+  {
+    "revision": "126c6fb666bb2da32de92dbd6307e428",
+    "url": "/Lending/static/media/Larnitech Office Ukraine.126c6fb6.mp4"
+  },
+  {
+    "revision": "dad94389c4b5a6d96df5b91b03519da1",
+    "url": "/Lending/static/media/bg1.dad94389.png"
+  },
+  {
+    "revision": "1dfa4576572c84779b29cf9fe4b91350",
+    "url": "/Lending/static/media/bgCarusel.1dfa4576.png"
+  },
+  {
+    "revision": "235cb04121db4c0b8c2f96a3f1a4807d",
+    "url": "/Lending/static/media/bgContacts.235cb041.png"
+  },
+  {
+    "revision": "08845b10f6a4a5617c1cb27220706f9e",
+    "url": "/Lending/static/media/carusel1picture.08845b10.png"
+  },
+  {
+    "revision": "87486c51b1b28add2a6e25ebc0de0949",
+    "url": "/Lending/static/media/carusel2picture.87486c51.png"
+  },
+  {
+    "revision": "8570a6ef7c58b9feeb90b11f4c0cecee",
+    "url": "/Lending/static/media/carusel3picture.8570a6ef.png"
+  },
+  {
+    "revision": "d5b460ec50c9ac28e42e9eb6ed8d3b4c",
+    "url": "/Lending/static/media/heat.d5b460ec.png"
+  },
+  {
+    "revision": "024b9cd670461f8cb1a1d210e19bc5fa",
+    "url": "/Lending/static/media/iphone-larnitech2.024b9cd6.png"
+  },
+  {
+    "revision": "a664857f1ab123876c8c8d0e263ed411",
+    "url": "/Lending/static/media/light.a664857f.png"
+  },
+  {
+    "revision": "2f4c99e6ca4caff45d47cdb42f4fa9c6",
+    "url": "/Lending/static/media/logo Larnitech.2f4c99e6.png"
+  },
+  {
+    "revision": "0228bf15b69e76d328b70d285117b95b",
+    "url": "/Lending/static/media/youtube.0228bf15.png"
+  }
+]);
