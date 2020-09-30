@@ -1,0 +1,73 @@
+.section1 {
+    height: 90vh;
+}
+
+.containerText{
+    display: block;
+    float: left;
+}
+
+video {
+    width: 100% !important;
+    height: auto !important;
+
+    background: white;
+    height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.poster{
+    padding: 0;
+}
+
+.MainText {
+    display: block;
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Tinos', serif;
+    text-transform: uppercase;
+    color: #313131;
+    text-decoration: none;
+    
+}
+.MainText p{
+    text-align: center;
+}
+
+.MainText span {
+    color: #41c8c2;
+    font-size: 50px;
+}
+
+.MiddleText{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 5%;
+    font-size: 40px;
+    position: relative;  
+}
+
+.MiddleText p{
+    overflow: hidden; 
+    text-align: center; 
+    font-family: 'Tinos', serif;
+    color: white;
+    -webkit-text-stroke: 1px #313131;
+    filter: drop-shadow(1px 3px 3px #41c8c2);
+    font-size: 50px;
+}
+
+.strelka {
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 130%;
+}
+  
+.mainVideo {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 37%; 
+    
+}

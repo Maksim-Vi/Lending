@@ -1,0 +1,99 @@
+.section2 {
+    height: 100vh;
+    background: url('../material/bg1.png') no-repeat top center  ; 
+    background-size: cover;
+}
+    
+
+h3{
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Tinos', serif;
+    font-size: 28px;
+    color: #313131;
+}
+
+.Shape{
+    display: flex;
+    justify-content: center;
+    height: 89vh;
+}
+
+.ShapeText{
+    display: block;
+    text-align: center;
+}
+
+.blockFirst, .blockSecond{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.light, .audio, 
+.climate, .security{
+    width: 100%;
+}
+
+.light{
+    margin-top: 10%;
+    margin-right: 2%;
+}
+ .audio{
+    margin-top: 20%;
+    margin-right: 2%;
+ }
+ .climate{
+    margin-top: 29%;
+    margin-left: 2%;
+ }
+ .security{
+    margin-top: 20%;
+    margin-left: 2%;
+ }
+
+.light a, .audio a,
+.climate a, .security a{
+   text-decoration: none;
+   font-family: 'Tinos', serif;
+   text-transform: uppercase;
+   color: #313131;
+   font-size: 28px;
+   
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.light a:hover, .audio a:hover,
+.climate a:hover, .security a:hover{
+    text-decoration: none;
+    color: #313131; 
+}
+
+.plus{
+    width: 25px;
+    height: 25px;
+}
+
+
+.parallaxLayerBack{
+    /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+   .parallax {
+       background-attachment: scroll;
+   }
+}
+
+
+
+

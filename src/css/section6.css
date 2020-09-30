@@ -1,0 +1,133 @@
+.section6{
+  height: 100vh;
+  background: url('./../material/bgContacts.png') no-repeat center;
+  background-size: cover; 
+}
+
+.containerS6{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.bgImgContacts{
+  width: 100%;
+  height: 40%;
+  margin-top: 15%;
+  position: absolute;
+}
+
+
+/* form starting stylings ------------------------------- */
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  top: 0;
+  padding-top: 22%;
+ 
+}
+
+.group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.inputName {
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  border: none;
+  background-color: rgba(236, 236, 236, 0.938);
+  border-radius: 5px;
+  border-bottom: 1px solid #41c8c2;
+}
+.inputName:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+label {
+  color: #41c8c2;
+  font-size: 18px;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 15px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+.inputName:focus ~ label, .inputName:valid ~ label {
+  top: -15px;
+  font-size: 14px;
+  color: #41c8c2;
+}
+
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 320px;
+}
+.bar:before, .bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  position: absolute;
+  background: #41c8c2;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+  left: 50%;
+}
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+.inputName:focus ~ .bar:before,
+.inputName:focus ~ .bar:after {
+  width: 50%;
+}
+
+
+.BtnGetCons{
+  text-decoration: none;
+  /* margin-left: -20px; */
+  font-family: 'Tinos', serif;
+  border: 1px solid #41c8c2;
+  border-radius: 5px;
+  padding: 7px 25px 7px 25px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #0000003b;
+}
+.BtnGetCons:hover{
+  background-color: #0000009c;
+  color: #41c8c2;
+}
+
+.parallaxLayerBack{
+  /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+ .parallax {
+     background-attachment: scroll;
+ }
+}
+

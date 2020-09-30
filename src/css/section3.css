@@ -1,0 +1,88 @@
+.section3 {
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+}
+.topText{
+    text-align: center;
+}
+.topText h3{
+    font-family: 'Tinos', serif;
+    margin-top: 0;
+    padding-top: 2%;
+}
+.topText p{
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.topText span{
+    font-family: 'Tinos', serif;
+    color: #41c8c2;
+    font-weight: 600;
+}
+.bottomText{
+    margin-top: 1%;
+}
+
+.content img{
+    margin-top: 1%;
+}
+.contentText{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 2%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: baseline;
+}
+.function, .spicking, .timetables{
+    flex: 1 1 33.3333%;
+    font-family: 'Tinos', serif;
+}
+.scene, .localCloud, .sec{
+    flex: 1 1 33.3333%;
+    font-family: 'Tinos', serif;
+}
+
+.contentText p{
+    margin-bottom: 0px;
+}
+
+.bottomContentBtn p{
+    margin-top: 5%;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #313131;
+    font-family: 'Tinos', serif;
+    text-transform: uppercase;
+}
+
+.btnConsultation{
+    text-decoration: none;
+    font-family: 'Tinos', serif;
+    border: 1px solid #41c8c2;
+    border-radius: 5px;
+    padding: 7px 20px 7px 20px;
+    font-size: 24px;
+    color: #41c8c2;
+    background-color: #0000003b;
+    cursor: pointer;
+}
+.btnConsultation:hover{
+    background-color: #0000009c;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.caption{
+    color: #41c8c2;
+    font-size: 26px;
+    font-weight: 300;
+    /* line-height: 0; */
+    /* text-transform: uppercase; */
+}
